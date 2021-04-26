@@ -9,6 +9,7 @@ mongoose
   .connect(
     "mongodb+srv://hayoungKim:1568978*kim@reactstudy2.tbqza.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     {
+      // error 발생을 막아줌
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
